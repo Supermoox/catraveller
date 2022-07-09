@@ -1,0 +1,58 @@
+<div id="top-embellishment">
+  <!--<h5 style="font-size: 4vw;">CATTYTRAVELE</h5>-->
+</div>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <%= link_to root_path do %>
+        <span class="logo img-responsive">  <img src="<%= asset_path( 'cat.png' ) %>" /></span>
+      <% end %>
+    </div>
+ 
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="row" style="margin-bottom: 20px;">
+      <div class="col-md-2"></div>
+      <div class="col-md-5" style="padding-top: 20px;">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">                   
+              <li> 
+                <span class="top-right-item"><strong><%= link_to "HOME", root_path %></strong></span>
+              </li>          
+              <li> 
+                 <span class="top-right-item"><strong> ABOUT</strong></span>
+              </li>              
+              <li> 
+                 <span class="top-right-item"><strong>CONTACTS</strong></span>
+              </li>  
+              <li> 
+                <span class="top-right-item"><strong>POSTS</strong></span>
+
+              </li>        
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div>
+      <div class="col-md-3 ">
+          <div class="row">
+            <div class="col-md-6 text-center">
+                  <a href="#" class="fa fa-facebook"></a>
+                  <a href="#" class="fa fa-twitter"></a>
+                  <a href="#" class="fa fa-linkedin"></a>
+                  <a href="#" class="fa fa-youtube"></a>
+                  <a href="#" class="fa fa-instagram"></a>
+            </div>
+            <div class="col-md-6"></div>
+          </div>
+
+      </div>
+    </div>
+</nav>
+
+
+
